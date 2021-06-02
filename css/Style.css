@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+}
+
+.containerFull {
+    width: 990px;
+}
+
+.content-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    
+}
+
+.menu {
+    
+}
+
+.logo, .menu {
+    display: flex;
+    align-items: center;
+}
