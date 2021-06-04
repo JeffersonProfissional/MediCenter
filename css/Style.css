@@ -1,17 +1,18 @@
+/* Conteudo gerais */
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
-}
-
-body {
-    margin: 0;
-    padding: 0;
+    padding:0;
+    margin:0;
 }
 
 a {
     text-decoration: none;
     color: initial;
 }
+
+/* header */
 
 #header {
     display: flex;
@@ -51,7 +52,7 @@ nav li a{
     height: 50px;
     padding: 15px;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica;
     color:#727272
 }
 
@@ -59,4 +60,114 @@ nav .active a,
 nav li a:hover {
     background-color: rgb(56, 165, 255);
     color: white;
+}
+
+/* Area banner - Titulo*/
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/img1.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 670px;
+}
+
+.content-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-title, .container-info {
+    width: 100%;
+}
+
+.container-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: 370px;
+}
+
+.container-title h1 {
+    margin:0;
+    margin-bottom: 25px;
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 1px #555;
+}
+
+.container-title small {
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0 1px 1px #555;
+}
+
+/*containers das infos dentro do banner */
+
+.container-info {
+    display: flex;
+    height: 210px;
+}
+
+.content-emergency, 
+.content-doctors, 
+.content-opening {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.content-emergency{
+    background-color: #39aae1;
+}
+
+.content-doctors {
+    background-color: #0079c7;
+}
+
+.content-opening {
+    background-color: #2b4c99;
+}
+
+.content-opening h2 {
+    margin-bottom: 20px;
+}
+
+.title-info {
+    margin:0;
+}
+
+.text-info {
+    margin: 20px 0 35px 0;
+    font-size: 14px;
+}
+
+.button-info {
+    padding:10px;
+    height: 50px;
+    box-shadow: 0px 0px 4px white;
+    text-shadow: 0 1px 1px #555;
+    color: white;
+}
+
+.button-info:hover{
+    background-color: rgb(0, 162, 255);
+}
+
+.table-hours {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px
+}
+
+.separator-tables {
+    border-color: rgba(255, 255, 255, 0.137);
+}
+
+.table-hours,
+.separator-tables {
+    margin-top: 10px;
 }
