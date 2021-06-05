@@ -89,7 +89,7 @@ nav li a:hover {
     max-width: 370px;
 }
 
-.container-title h1 {
+.container-title h2 {
     margin:0;
     margin-bottom: 25px;
     font-size: 70px;
@@ -163,11 +163,101 @@ nav li a:hover {
     font-size: 14px
 }
 
-.separator-tables {
-    border-color: rgba(255, 255, 255, 0.137);
+.separator {
+    border-color: rgba(151, 151, 151, 0.562);
 }
 
 .table-hours,
-.separator-tables {
+.separator {
+    margin: 10px 0;
+}
+
+/* Conteudo principal */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#container-main {
+    display: flex;
+}
+
+.last-news {
+    flex:2;
+    height: 100%;
+}
+
+/* Titulos */
+
+.widget-title {
+    margin: 30px 0 20px 0;
+}
+
+.widget-title h3 {
+    font-size: 20px;
+}
+
+.separator-titles {
+    width: 50px;
+    height: 3px;
     margin-top: 10px;
+    background-color: #36a9e1;
+    opacity: 1;
+}
+
+/* ------- */
+
+
+
+/* aside */
+
+.container-secondary {
+    flex: 1;
+}
+
+.widget-departaments{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content-departaments {
+    height: 150px;
+    width: 150px;
+    margin-bottom:25px;
+    background-color: teal;
+}
+
+.content-departaments:nth-child(5n),
+.content-departaments:nth-child(6n) {
+    margin-bottom: 0;
+}
+
+.text-appointment {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.phone-appointment,
+.email-appointment,
+.page-appointment {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background-color:cadetblue;
+}
+
+.appointment-info div p {
+    font-size: 13px;
+}
+
+.appointment-info div a{
+    text-decoration: underline;
+    color: rgb(67, 121, 221);
 }
