@@ -208,7 +208,68 @@ main {
 
 /* ------- */
 
+/* article */
 
+.widget-news {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+.date-news-comments {
+    display: flex;
+    height: 35px;
+    margin: 10px 0 20px 0;
+}
+
+.date-news{
+    display: flex;
+    margin-right: 4px;
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px; 
+}
+
+.balloon-tip {
+    height: 25px;
+    width: 10px;
+    margin-top: 16px;
+    background-color: #2b4c99;
+    border-bottom-right-radius: 100%;
+}
+
+.date-news p {
+    padding: 10px 10px 10px 3px;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px; 
+}
+
+.img-dr, .title-news , .text-news {
+    width: 305px;
+}
+
+.title-news {
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+}
+
+.text-news {
+    font-size: 15px;
+}
 
 /* aside */
 
@@ -226,7 +287,7 @@ main {
     height: 150px;
     width: 150px;
     margin-bottom:25px;
-    background-color: teal;
+    background-color: #39aae1;
 }
 
 .content-departaments:nth-child(5n),
