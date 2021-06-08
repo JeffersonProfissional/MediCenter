@@ -12,6 +12,10 @@ a {
     color: initial;
 }
 
+.adress {
+    font-style: normal;
+}
+
 /* header */
 
 #header {
@@ -190,8 +194,8 @@ main {
 
 /* Titulos */
 
-.widget-title {
-    margin: 30px 0 20px 0;
+.widget-title, .subTitle-footer {
+    margin: 25px 0 20px 0;
 }
 
 .widget-title h3 {
@@ -206,8 +210,6 @@ main {
     opacity: 1;
 }
 
-/* ------- */
-
 /* article */
 
 .widget-news {
@@ -219,14 +221,14 @@ main {
 .news{
     display: flex;
     flex-direction: column;
-    margin: 0 25px 25px 0;
+    margin: 0 25px 30px 0;
     cursor: pointer;
 }
 
 .date-news-comments {
     display: flex;
     height: 35px;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 30px 0;
 }
 
 .date-news{
@@ -259,11 +261,11 @@ main {
 }
 
 .img-dr, .title-news , .text-news {
-    width: 305px;
+    width: 300px;
 }
 
 .title-news {
-    margin: 20px 0 20px 0;
+    margin: 25px 0 20px 0;
     font-size: 25px;
 }
 
@@ -315,10 +317,129 @@ main {
 }
 
 .appointment-info div p {
-    font-size: 13px;
+    font-size: 13px !important;
 }
 
 .appointment-info div a{
     text-decoration: underline;
     color: rgb(67, 121, 221);
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.container-footer article {
+    display: flex;
+}
+
+.container-footer article section {
+    flex: 1;
+}
+
+/*Titulos no footer */
+
+.container-footer a {
+    color: white;
+}
+
+.content-title-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title-insurance{
+ background-color: #39aae1;;
+}
+
+.title-records{
+    background-color: #0079c7;
+}
+
+.title-pay {
+    background-color: #2b4c99;
+}
+
+.content-title-footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.subTitle-footer {
+    font-size: 19px;
+}
+
+/* Conteudo do footer */
+
+.informs-footer {
+    padding-right: 20px;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+/* Medicenter Clinic */
+
+.text-insurance {
+    margin-bottom: 20px;
+}
+
+.informs-map p  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.icons i {
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+    background-color: #8f8f8f;
+}
+
+/* Latest Post e Latest Twets*/
+
+.content-blocks-footer {
+    margin-bottom: 30px;
+}
+
+.texts-records, .texts-pays {
+    display: flex;
+    color: white;
+}
+
+.texts-records i, .texts-pays i {
+    margin-right: 8px;
+    font-size:10px;
+}
+
+.date-post {
+    margin-left: 18px;
+    color:rgb(16, 167, 255);
+}
+
+.texts-pays {
+    color: #8f8f8f;
+}
+
+/* Direitos reservados */
+
+.copyright {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.copyright span {
+    color : #8f8f8f
 }
