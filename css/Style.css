@@ -713,6 +713,19 @@ main {
 
 @media (max-width: 580px){
     
+    /* header */
+
+    nav ul {
+        left:0;
+        width: 100%;
+        top:75px;
+        background: white;
+    }
+
+    ul li a{
+        justify-content: center;
+    }
+
     /*banner */
     .container-info{
         margin: auto;
